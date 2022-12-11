@@ -34,7 +34,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: tap-install-gitops-sa
-  namespace: tap-install
+  namespace: default
   annotations:
     tkg.tanzu.vmware.com/tanzu-package: tap-install-gitops-cluster-role
     kapp.k14s.io/change-group: tap-install-gitops/rbac
