@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: externaldns-values
-  namespace: #@ data.values.externaldns.namespace
+  namespace: default
   annotations:
     kapp.k14s.io/change-rule: "delete after deleting externaldns"
 
