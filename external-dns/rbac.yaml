@@ -24,7 +24,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: tap-install-gitops-sa
-  namespace: tap-install
+  namespace: default
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
